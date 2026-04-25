@@ -1,0 +1,40 @@
+{
+  "orgName": "vogelgesang industries",
+  "edition": "Developer",
+  "settings": {
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "securitySettings": {
+      "sessionSettings": {
+        "sessionTimeout": "TwelveHours"
+      }
+    },
+    "botSettings": {
+      "enableBots": true
+    },
+    "EinsteinGptSettings": {
+      "enableEinsteinGptPlatform": "true"
+    }
+  },
+  "features": [
+    "Communities",
+    "EnableSetPasswordInApi",
+    "MaxApexCodeSize:10",
+    "EinsteinGPTForDevelopers",
+    "Chatbot",
+    "Einstein1AIPlatform",
+    "MarketingUser",
+    "atlasPlannerPilot",
+    "agentforceMcpPilot"
+  ]
+}

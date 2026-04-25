@@ -1,0 +1,20 @@
+{
+  "packageDirectories": [
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app",
+      "default": true,
+      "package": "googleMapsMcp",
+      "versionDescription": ""
+    }
+  ],
+  "name": "20260424_googleMapsMCP",
+  "namespace": "mvpbo3",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "65.0",
+  "packageAliases": {
+    "googleMapsMcp": "0HoHs000000L2CKKA0",
+    "googleMapsMcp@0.1.0-1": "04tHs000000iSAFIA2"
+  }
+}
