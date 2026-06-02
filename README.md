@@ -8,10 +8,10 @@ In this example, we connect to the [Google Maps Grounding Lite MCP Server](https
 
 Two versions of this package are published so you can install either one independently or install `0.1.0-1` first and then upgrade to the latest to observe upgrade behavior on a subscriber org.
 
-| Version | Package Version ID | Install Link | Notes |
-| --- | --- | --- | --- |
+| Version             | Package Version ID   | Install Link                                            | Notes                                                                                                                                                                                                                                                                                             |
+| ------------------- | -------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `0.1.0-1` (current) | `04tHs000000iSAFIA2` | `/packaging/installPackage.apexp?p0=04tHs000000iSAFIA2` | Initial release. Ships the External Credential, Named Credential, External Service Registration, and Permission Set required to call the Google Maps Grounding Lite MCP Server. ESR is packaged in the `Incomplete` state — the operations list is hydrated by the platform after install/deploy. |
-| `0.2.0-3` (new) | `04tHs000000iSitIAE` | `/packaging/installPackage.apexp?p0=04tHs000000iSitIAE` | Adds a CSP Trusted Site for `https://mapstools.googleapis.com` and ships the ESR with its tool operations (`search_places`, `lookup_weather`, `compute_routes`) and `Complete` status already populated. |
+| `0.2.0-3` (new)     | `04tHs000000iSitIAE` | `/packaging/installPackage.apexp?p0=04tHs000000iSitIAE` | Adds a CSP Trusted Site for `https://mapstools.googleapis.com` and ships the ESR with its tool operations (`search_places`, `lookup_weather`, `compute_routes`) and `Complete` status already populated.                                                                                          |
 
 ### What's in both versions
 
