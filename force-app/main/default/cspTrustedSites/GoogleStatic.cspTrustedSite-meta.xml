@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <CspTrustedSite xmlns="http://soap.sforce.com/2006/04/metadata">
     <canAccessCamera>false</canAccessCamera>
     <canAccessMicrophone>false</canAccessMicrophone>
     <context>All</context>
-    <description>User for rendering map images in Google Maps MCP responses</description>
+    <description
+  >User for rendering map images in Google Maps MCP responses</description>
     <endpointUrl>https://maps.gstatic.com</endpointUrl>
     <isActive>true</isActive>
     <isApplicableToConnectSrc>false</isApplicableToConnectSrc>
