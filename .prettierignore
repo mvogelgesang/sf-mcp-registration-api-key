@@ -9,3 +9,25 @@
 .vscode
 
 coverage/
+
+# Salesforce metadata files that are corrupted by `xmlWhitespaceSensitivity: ignore`.
+# Two failure modes:
+#
+#  1. External Service Registration files embed an escaped JSON payload inside
+#     the <schema> element. Prettier inserts whitespace around the &quot;
+#     entities that delimit the JSON strings, corrupting the schema and making
+#     the file undeployable ("The schema is not supported or we could not
+#     identify the schema type from your API spec").
+#
+#  2. Permission Set files include <externalCredentialPrincipal> cross-reference
+#     ids (e.g. `mvpbo3__googleMapsMCP-googleApiKey`) that must be the exact
+#     text content of the element. Prettier wraps long element contents to a
+#     new line, which the Metadata API then sees as
+#     "\n      mvpbo3__googleMapsMCP-googleApiKey\n    " and rejects with
+#     "invalid cross reference id". The same file's <description> text also
+#     gets whitespace inserted around &apos; entities.
+#
+# Keep these files out of prettier's reach. Add additional metadata-type
+# patterns here if you discover similar formatting issues elsewhere.
+**/externalServiceRegistrations/*.externalServiceRegistration-meta.xml
+**/permissionsets/*.permissionset-meta.xml
