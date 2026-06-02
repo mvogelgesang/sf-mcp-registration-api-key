@@ -1,13 +1,14 @@
 {
   "packageDirectories": [
     {
-      "versionName": "ver 0.2",
-      "versionNumber": "0.2.0.NEXT",
-      "ancestorVersion": "0.1.0",
+      "versionName": "ver 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "ancestorVersion": "0.2.0",
       "path": "force-app",
       "default": true,
       "package": "googleMapsMcp",
-      "versionDescription": ""
+      "versionDescription": "",
+      "postInstallScript": "GoogleMapsMCPPostInstall"
     }
   ],
   "name": "20260424_googleMapsMCP",
