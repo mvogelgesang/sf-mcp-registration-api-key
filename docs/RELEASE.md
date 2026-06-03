@@ -106,7 +106,7 @@ For every PR — _not_ just for releases — to keep `main` permanently shippabl
 
    ```bash
    # Fresh-install smoke
-   sf org create scratch -f config/project-scratch-def.json -a smoke_fresh -v pboDevHub -d -y 1 -w 15
+   sf org create scratch -f config/project-scratch-def.json -a smoke_fresh -v pboDevHub -d -y 1 -w 15 -m
    sf package install -o smoke_fresh -p 04tHs000000... -w 15 -r
 
    # Upgrade-path smoke

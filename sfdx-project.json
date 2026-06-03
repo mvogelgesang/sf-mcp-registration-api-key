@@ -3,7 +3,7 @@
     {
       "versionName": "ver 1.0",
       "versionNumber": "1.0.0.NEXT",
-      "ancestorVersion": "0.2.0",
+      "ancestorVersion": "0.1.0",
       "path": "force-app",
       "default": true,
       "package": "googleMapsMcp",
@@ -18,8 +18,6 @@
   "packageAliases": {
     "googleMapsMcp": "0HoHs000000L2CKKA0",
     "googleMapsMcp@0.1.0-1": "04tHs000000iSAFIA2",
-    "googleMapsMcp@0.2.0-1": "04tHs000000iSebIAE",
-    "googleMapsMcp@0.2.0-2": "04tHs000000iSioIAE",
-    "googleMapsMcp@0.2.0-3": "04tHs000000iSitIAE"
+    "googleMapsMcp@1.0.0-3": "04tHs000000iSj8IAE"
   }
 }
